@@ -4,31 +4,18 @@ import styled from "styled-components";
 
 
 
-export default function index(){
+export default function index({children}){
 
-     return <Container></Container>
+     return <Container>{children}</Container>
 }
 
 const Container = styled.section`
-  padding: 4em;
-  background: papayawhip;
+width:100%;
+height:100vh;
+background-color: #fefbd8;
+display:flex;
+justify-content: center;
+align-items:center;
+min-width:1200px;
 `;
 
-// const  Container =()=>{
-
-
-// // Create a Wrapper component that'll render a <section> tag with some styles
-// const Wrappercon = styled.section`
-//   padding: 4em;
-//   background: papayawhip;
-// `;
-
-// return (
-//     <Wrappercon>
- 
-//     </Wrappercon>
-// );
-
-
-// }
-// export default Container;
