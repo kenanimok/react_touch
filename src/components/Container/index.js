@@ -12,7 +12,9 @@ export default function index({children}){
 const Container = styled.section`
 width:100%;
 height:100vh;
-background-color: #fefbd8;
+
+background-color: #FBDA61;
+background-image: linear-gradient(45deg, #FBDA61 0%, #FF5ACD 100%);
 display:flex;
 justify-content: center;
 align-items:center;
